@@ -12,11 +12,13 @@ class Car:
         self.speed += 5
 
     def brake(self):
-        self.speed -= 5
+        self.speed -= 6
 
     def step(self):
         self.odometer += self.speed
-        self.time += 1
+
+    def nada(self):
+        pass
 
     def average_speed(self):
         if self.time != 0:
