@@ -20,6 +20,9 @@ class Car:
     def nada(self):
         pass
 
+    def nada3(self):
+        pass
+
     def average_speed(self):
         if self.time != 0:
             return self.odometer / self.time
